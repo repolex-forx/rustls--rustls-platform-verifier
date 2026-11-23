@@ -275,7 +275,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/webpki-root-certs-1.0.6/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/996b1c903491641b17b3c9afb65d1352f6fc6b76/chunk-001.nq.gz",
+      "dep": "dep/996b1c903491641b17b3c9afb65d1352f6fc6b76.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
