@@ -1,0 +1,20 @@
+[2026-11-23T02:16:53Z] === ENRICH ITERATION 1 START | repo=rustls/rustls-platform-verifier sha=996b1c90 ===
+[2026-11-23T02:16:53Z] [iter=1] PHASE START: enrich repo=rustls/rustls-platform-verifier sha=996b1c90 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/996b1c90-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/996b1c903491641b17b3c9afb65d1352f6fc6b76.nq.gz
+[2026-11-23T02:16:53Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-23T02:16:57Z] [iter=1] AST store loaded triples=131268 load_secs=4 mem_mb=293 MB
+[2026-11-23T02:16:57Z] [iter=1] Step 2: Finding LSP targets mem_mb=293 MB
+[2026-11-23T02:16:57Z] [iter=1] LSP targets found call_sites=925 imports=77 extends=0 implements=5 secs=0
+[2026-11-23T02:16:57Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=293 MB
+[2026-11-23T02:16:58Z] [iter=1] Position index built positions=8932 nodes_with_types=10707 secs=1 mem_mb=293 MB
+[2026-11-23T02:16:58Z] [iter=1] Step 3: Starting LSP resolution mem_mb=293 MB already_completed_types=[] already_completed_files=0
+[2026-11-23T02:16:58Z] [iter=1] Resolving target type target_type=call_site count=925
+[2026-11-23T02:17:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=4 resolved=82 errors=0 current=rustls-platform-verifier/src/verification/apple.rs
+[2026-11-23T02:17:36Z] [iter=1] Target type resolved target_type=call_site resolved=208 errors=925 secs=39 mem_mb=293 MB
+[2026-11-23T02:17:36Z] [iter=1] Resolving target type target_type=import_statement count=77
+[2026-11-23T02:17:52Z] [iter=1] Target type resolved target_type=import_statement resolved=23 errors=0 secs=15 mem_mb=293 MB
+[2026-11-23T02:17:52Z] [iter=1] Resolving target type target_type=implements_clause count=5
+[2026-11-23T02:17:57Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=1.1 files_done=1 resolved=1 errors=0 current=rustls-platform-verifier/src/verification/windows.rs
+[2026-11-23T02:17:57Z] [iter=1] Target type resolved target_type=implements_clause resolved=1 errors=0 secs=5 mem_mb=293 MB
+[2026-11-23T02:18:33Z] [iter=1] Step 5: Writing final enrichment file triples=5303
+[2026-11-23T02:18:33Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/996b1c903491641b17b3c9afb65d1352f6fc6b76.nq.gz size_kb=106
+[2026-11-23T02:18:33Z] [iter=1] PHASE END: enrich elapsed_s=100 elapsed_min=1.7 total_triples=5303
