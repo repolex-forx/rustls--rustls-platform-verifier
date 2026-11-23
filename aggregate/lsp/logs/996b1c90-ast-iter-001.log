@@ -1,0 +1,7 @@
+[2026-11-23T02:15:00Z] === AST ITERATION 1 START | repo=rustls/rustls-platform-verifier sha=996b1c90 ===
+[2026-11-23T02:15:00Z] [iter=1] PHASE START: ast repo=rustls/rustls-platform-verifier sha=996b1c90
+[2026-11-23T02:15:00Z] [iter=1] Building AST aggregate chunks
+[2026-11-23T02:15:14Z] [iter=1] AST chunks built count=1 triples=131268
+[2026-11-23T02:15:14Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/996b1c903491641b17b3c9afb65d1352f6fc6b76/.complete
+[2026-11-23T02:15:14Z] [iter=1] PHASE END: ast elapsed_s=14 elapsed_min=0.2
+[2026-11-23T02:15:14Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
